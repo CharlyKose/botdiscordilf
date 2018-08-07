@@ -1,0 +1,14 @@
+{ 
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scrpipts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CharlyKose",
+  "licence": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
