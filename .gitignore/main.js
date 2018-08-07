@@ -7,7 +7,7 @@ bot.on('ready', () => {
     console.log("Bot Ready !");
 });
 
-bot.login('NDc2MDA3ODgwNDAzOTc2MjEy.DknUyg.y0ZdVLH7Z1dR1k3j1RymK5w3Ako');
+bot.login('process.env.TOKEN');
 
 bot.on("guildMemberAdd", member => {
     let role = member.guild.roles.find("name", "Citoyen");
